@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Rebecca Murmann</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.production.css">
+</head>
+<body>
+    <header class="header">
+            <img src="./img/logo.png" class="logo" alt="logo">
+            <nav class="nav">
+                <ul role="menubar" class="nav-list">
+                    <li role="presentation" class="list active">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li role="presentation" class="list">
+                        <a href="./about.html">About Me</a>
+                    </li>
+                    <li role="presentation" class="list">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <!-- <li role="presentation" class="list">
+                        <a href="./work.html">Work</a>
+                    </li> -->
+                </ul>
+            </nav>
+    </header>
+    <div class="clear">
+        <form action="/" method="post">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required> <br>
+            
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required> <br>
+            
+            <label for="mail">E-Mail:</label>
+            <input type="e-mail" id="mail" name="mail" placeholder="Your E-Mail.." required> <br>
+
+            <label for="phone">Telephone:</label>
+            <input type="tel" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Your Phonenr.." required> <br>
+
+            <label for="massage">Message:</label>
+            <textarea name="massage" id="massage" cols="30" rows="10" maxlength="240" placeholder="Message.." required></textarea> <br>
+
+            <button class="styled" type="submit" >Send Message</button>
+        </form>
+    </div>
+    <br>
+    <div class="clear">
+        Tel:<a href="tel:+491742154944">+49 174 2154944</a> <br>
+        <a href="mailto:rebecca.murmanm@gmail.com">rebecca.murmann@gmail.com</a> <br>
+        <button class="styled" type="submit">Contact Me</button>
+    </div>
+    <footer class="clear footer">
+        <p>Find me on</p>
+        <!-- Add logos here -->
+        <div class="media">
+            <img src="./img/github_icon.svg" alt="GitHub">
+            <img src="./img/instagram_icon.svg" alt="Instagram">
+            <img src="./img/linkedin_icon.svg" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="js/tota11y-0.1.6/build/tota11y.min.js"></script>
+</body>
+</html>
